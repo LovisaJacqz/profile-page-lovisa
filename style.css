@@ -1,0 +1,97 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+body{
+    background-color: background-image=linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    color: black; 
+    font-size: 18px; 
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+}
+
+h1, h2{
+    color:#b2967d;
+}
+h1{
+    font-size: 38px;
+    font-weight: 900;
+    font-family:'Poppins', sans-serif ;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Playfair Display', serif;
+}
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+
+.card-white{
+    background-color: rgba(233, 240, 240, 0);
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 30px auto;
+    box-shadow: 10px 10px 20px #e6beae;
+    border: 1px solid #eee4e1; 
+    border-radius: 10px;
+}
+
+.container{
+    width: 700px;
+    margin: 10px auto;
+}
+
+img {
+    height: 200px;
+    border-radius: 45px;
+
+}
+
+.btn-beige{
+    background-color: #b2967d;
+    color:white;
+    border-radius: 4px;
+    padding:15px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+.btn-beige:hover {
+    background-color: #C4A381;
+
+}
+    
+#intro{
+    margin-bottom: 50px;
+}
+
+.list-formations{
+    list-style: none;
+    padding-left: 0;
+    text-align: justify;
+}
+
+.list-experiences{
+    list-style: none;
+    padding-left: 0;
+    text-align: justify;
+}
+
+.first-div img{
+    display: block;
+    margin: 20px auto;
+}
+
+.list-inline{
+    list-style:none;
+    padding-left: 0px;
+}
+.list-inline li{
+    display: inline;
+}
+
+.list-inline i{
+    font-size: 50px;
+    color: #b2967d;
+    letter-spacing: 60px;
+}
